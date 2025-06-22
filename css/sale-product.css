@@ -1,0 +1,158 @@
+.bg-container {
+  background-color: #eaeaea;
+}
+
+.product-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 0 15px;
+  justify-content: center;
+}
+
+.product-card {
+  display: flex;
+  flex: 1 1 300px;
+  max-width: 500px;
+  border: 1px solid hsl(0, 0%, 92%);
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.image-container {
+  position: relative;
+  width: 50%;
+  aspect-ratio: 1 / 1.2;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: #fff;
+}
+
+.sale-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #28a745;
+  color: #fff;
+  padding: 4px 15px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  z-index: 10;
+}
+
+/* Content container */
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  padding: 20px;
+}
+
+.product-title {
+  color: #1a3c5e;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.product-price {
+  display: block;
+  color: #1a3c5e;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.product-features {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.product-features li {
+  color: #1a3c5e;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.buy-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 180px;
+  height: 40px;
+  background-color: #edf4f6;
+  color: #1a3c5e;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.buy-button img {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+}
+
+.buy-button:hover {
+  background-color: #d3e3e8;
+}
+
+@media (max-width: 848px) {
+  .product-card {
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .image-container,
+  .content-container {
+    width: 100%;
+  }
+
+  .image-container {
+    aspect-ratio: 4 / 3;
+  }
+
+  .product-title,
+  .product-price {
+    font-size: 18px;
+  }
+
+  .product-features li {
+    font-size: 12px;
+  }
+
+  .buy-button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .product-section {
+    margin: 20px auto;
+    gap: 15px;
+  }
+
+  .product-title,
+  .product-price {
+    font-size: 16px;
+  }
+
+  .content-container {
+    padding: 15px;
+  }
+}

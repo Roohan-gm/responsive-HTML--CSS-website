@@ -1,0 +1,32 @@
+.bg-gradient {
+  background: linear-gradient(to right, #999999, #ffffff);
+  background-size: 200% 100%;
+  animation: slideGradient 1s linear infinite;
+}
+
+@keyframes slideGradient {
+  0%{
+    background-position: 0%;
+  }
+  50%{
+    background-position: 100%;
+  }
+  100%{
+    background-position: 0%;
+  }
+}
+
+.hidden {
+  display: none;
+}
+.show-ham{
+  display: inline;
+}
+@media (min-width: 848px) {
+  .sm\:show {
+    display: inline;
+  }
+  .sm\:hide-ham {
+    display: none;
+  }
+}

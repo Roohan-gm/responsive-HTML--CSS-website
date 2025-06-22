@@ -1,0 +1,38 @@
+.testimonial-h-s {
+  font-size: 48px;
+  line-height: 72px;
+}
+
+.comment-s {
+  font-size: 24px;
+}
+.name-s {
+  font-size: 16px;
+}
+.title-s {
+  font-size: 14px;
+}
+.image-s {
+  height: 58px;
+  width: 58px;
+}
+
+@media (max-width: 848px) {
+  .testimonial-h-s {
+    font-size: 24px;
+    line-height: 33px;
+  }
+  .comment-s {
+    font-size: 14px;
+  }
+  .name-s {
+    font-size: 12px;
+  }
+  .title-s {
+    font-size: 10px;
+  }
+  .image-s {
+    height: 32px;
+    width: 32px;
+  }
+}

@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/testimonials.css" />
+    <link rel="stylesheet" href="css/offer.css" />
+    <link rel="stylesheet" href="css/delivery-commetment.css" />
+    <link rel="stylesheet" href="css/medical-product.css" />
+    <link rel="stylesheet" href="css/sale-product.css" />
+    <link rel="stylesheet" href="css/deal-week.css" />
+    <link rel="stylesheet" href="css/trending-products.css" />
+    <link rel="stylesheet" href="css/hero.css" />
+    <link rel="stylesheet" href="css/search.css" />
+    <link rel="stylesheet" href="css/css-classes.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <link
+      rel="icon"
+      href="https://img.icons8.com/external-others-inmotus-design/67/external-Q-alphabet-others-inmotus-design-20.png"
+      type="image/x-icon"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/b9f6bba19a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
+      type="module"
+    ></script>
+
+    <title>QuickPik</title>
+  </head>
+  <body>
+    <header
+      class="flex-space-between py-24 sm:px-67 px-30 mx-auto m-1200-width"
+    >
+      <img src="images\logos\QuickPik.svg" alt="logo" />
+      <div class="header-links gap-16 flex-center">
+        <a
+          href="index.html"
+          class="p-10 sm:show hidden color-primary-blue no-underline fw-500 font-20"
+          >Home</a
+        >
+        <a
+          href="about-us.html"
+          class="p-10 sm:show hidden color-primary-blue no-underline fw-500 font-20"
+          >About us</a
+        >
+        <a
+          href="products.html"
+          class="p-10 sm:show hidden color-primary-blue no-underline fw-500 font-20"
+          >Products</a
+        >
+        <a
+          href="servicea.html"
+          class="p-10 sm:show hidden color-primary-blue no-underline fw-500 font-20"
+          >Services</a
+        >
+        <a
+          href="contact-us.html"
+          class="p-10 sm:show hidden color-primary-blue no-underline fw-500 font-20"
+          >Contact us</a
+        >
+      </div>
+      <div class="flex-space-between">
+        <div
+          class="bg-secondary-green bg-gradient mr-20 p-3 center br-11 hidden sm:show"
+        >
+          <a
+            href="#"
+            class="color-white p-5 flex fw-500 font-20 bg-secondary-green text-center no-underline br-10"
+            >ShopNow</a
+          >
+        </div>
+        <img
+          src="images/svg/iconamoon_profile-circle-fill.svg"
+          alt="profile"
+          class="p-10 mr-10"
+        />
+        <img src="images\svg\mdi_cart.svg" alt="cart" class="p-10" />
+
+        <img
+          src="images\svg\bars-solid.svg"
+          alt="hamburger menu"
+          class="ml-20 s-24 show-ham hidden sm:hide-ham"
+        />
+      </div>
+    </header>
+    <!-- Searh bar-->
+    <div
+      class="flex center mx-auto w-full sm:px-67 py-10 m-1200-width"
+      style="
+        border-bottom: hsl(137, 84%, 83%) 2px solid;
+        background-color: hsl(137, 84%, 96%);
+      "
+    >
+      <a
+        href="#"
+        class="p-10 rounded-full no-underline color-primary-blue font-15 bg-white hide-catagories sm:show-catagories mr-5"
+      >
+        <img src="images\svg\cateogarie.svg" alt="cateogarie" class="mr-5" />All
+        Categories</a
+      >
+      <div
+        class="search-input flex flex-grow-1 px-30-ser"
+        style="background-color: hsl(137, 84%, 96%)"
+      >
+        <input
+          type="text"
+          placeholder="What are you looking for?"
+          style="
+            ::placeholder {
+              color: #184363;
+            }
+          "
+          class="b-0 w-full mr-0 bg-white p-10 font-14 fw-500 br-l-full"
+        />
+        <a class="bg-secondary-green br-r-full p-10 ml-0 flex">
+          <img
+            src="images\svg\search.svg"
+            alt="search"
+            class="bg-secondary-green"
+          />
+        </a>
+      </div>
+    </div>
+    <main>
+      <!-- Hero Section -->
+      <section
+        class="sm-hero m-1200-width min-h-y limit-margin g-20 full-center p-20 b-box"
+      >
+        <div class="hero-content flex-1 mw-600">
+          <h4
+            class="sm-hero-w-full off-place w-90 br-20 p-xy-10-20 bg-off color-off font-off"
+          >
+            30% Off on groceries
+          </h4>
+          <h1 class="font-hero color-h hero-align">
+            Shop smart, <span class="hero-align">not hard.</span>
+          </h1>
+          <div class="overflow-hidden">
+            <h1 class="hero-align font-hero hero-animation m-0"
+            >Get it ordered.</h1>
+          </div>
+
+          <p class="hero-align color-black font-h-p">
+            Save time, skip the lines. We've got you covered.
+          </p>
+          <button
+            class="hero-button bg-secondary-green color-white fw-700 p-xy-10-20 b-0 br-8 hero-b-dis"
+          >
+            ShopNow
+          </button>
+        </div>
+        <div
+          class="hero-image flex-1 flex justify-center relative mg-con-t mt-12 mx-w-ic mx-h-ic mb-117 top-c-10"
+        >
+          <img
+            src="images/hero/background-ellipse.png"
+            class="w-full contain mx-h-limit sm-mx-h-image absolute z-index-0 mx-h-ib"
+          />
+          <img
+            src="images/hero/girl.png"
+            class="w-full contain mx-h-limit sm-mx-h-image z-index-1 left-10 bg-none absolute mx-h-ig t-g-n-42"
+          />
+          <div
+            class="z-index-2 flex relative t-r l-r br-10 w-r p-10 bg-white b-shadow-r"
+          >
+            <img
+              src="images/hero/avatar.png"
+              class="w-full contain mx-h-limit sm-mx-h-image mw-39 m-r-3"
+            />
+            <div class="flex-column justify-center w-349">
+              <h6 class="m-0 font-r fw-500 text-left">Ashely Daniels</h6>
+              <p class="m-0 font-r text-left color-gray">
+                "Saved me tons of time - never going back to grocery shopping!"
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Trending Products -->
+      <section class="flex-column align-center mb-50 m-1200-width mx-auto">
+        <h3 class="color-primary-blue font-20 fw-600">Trending Products</h3>
+        <div class="flex-center g-10 flex-wrap gap-16 w-full">
+          <div class="flex-column align-center">
+            <img
+              src="images\grocery.png"
+              class="w-195 h-200 p-10 color border-color-secondary-green br-15"
+              style="border-width: 0.8px"
+            />
+            <h6 class="color-black font-20 fw-400 m-0">grocery</h6>
+          </div>
+          <div class="flex-column align-center">
+            <img
+              src="images\shoes.png"
+              class="w-195 h-200 p-10 color border-color-secondary-green br-15"
+              style="border-width: 0.8px"
+            />
+            <h6 class="color-black font-20 fw-400 m-0">Shoes</h6>
+          </div>
+          <div class="flex-column align-center">
+            <img
+              src="images\iPhone_12.png"
+              class="w-195 h-200 p-10 color border-color-secondary-green br-15"
+              style="border-width: 0.8px"
+            />
+            <h6 class="color-black font-20 fw-400 m-0">Phones</h6>
+          </div>
+          <div class="flex-column align-center">
+            <img
+              src="images\google-home.png"
+              class="w-195 h-200 p-10 color border-color-secondary-green br-15"
+              style="border-width: 0.8px"
+            />
+            <h6 class="color-black font-20 fw-400 m-0">Google Home</h6>
+          </div>
+          <div class="flex-column align-center">
+            <img
+              src="images\alarm-clock.png"
+              class="w-195 h-200 p-10 color border-color-secondary-green br-15"
+              style="border-width: 0.8px"
+            />
+            <h6 class="color-black font-20 fw-400 m-0">Alarm Clock</h6>
+          </div>
+        </div>
+      </section>
+
+      <!-- Weekly Deals -->
+      <section class="mt-50 m-1200-width mx-auto display-flex full-center g-20">
+        <h2 class="color-primary-blue fw-700 font-24 m-0">Deal Of The Week</h2>
+        <div class="flex-row align-center g-10">
+          <div
+            class="flex-column full-center text-center p-5 br-5 bg-secondary-green w-50 h-50"
+          >
+            <h4 class="bg-secondary-green color-white fw-500 font-18">
+              10<span
+                class="block bg-secondary-green color-white fw-500 font-10"
+                >Days</span
+              >
+            </h4>
+          </div>
+          <div
+            class="flex-column full-center text-center p-5 br-5 bg-secondary-green w-50 h-50"
+          >
+            <h4 class="bg-secondary-green color-white fw-500 font-18">
+              19<span
+                class="block bg-secondary-green color-white fw-500 font-10"
+                >Hours</span
+              >
+            </h4>
+          </div>
+          <div
+            class="flex-column full-center text-center p-5 br-5 bg-secondary-green w-50 h-50"
+          >
+            <h4 class="bg-secondary-green color-white fw-500 font-18">
+              59<span
+                class="block bg-secondary-green color-white fw-500 font-10"
+                >Minutes</span
+              >
+            </h4>
+          </div>
+          <div
+            class="flex-column full-center text-center p-5 br-5 bg-secondary-green w-50 h-50"
+          >
+            <h4 class="bg-secondary-green color-white fw-500 font-18">
+              57<span
+                class="block bg-secondary-green color-white fw-500 font-10"
+                >Seconds</span
+              >
+            </h4>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sale Products -->
+      <section class="product-section">
+        <article class="product-card">
+          <div class="image-container">
+            <h5 class="sale-badge">Sale</h5>
+            <img src="images/elegant-perfumes.png" alt="Elegant Perfumes" />
+          </div>
+          <div class="content-container">
+            <h5 class="product-title">
+              Elegant Perfumes
+              <span class="product-price">$16.00</span>
+            </h5>
+            <ul class="product-features">
+              <li>Long Lasting</li>
+              <li>Affordable Price</li>
+              <li>Best Perfume</li>
+            </ul>
+            <button class="buy-button">
+              <img src="images/svg/button-cart.svg" alt="Cart Icon" />
+              Buy Now
+            </button>
+          </div>
+        </article>
+        <article class="product-card">
+          <div class="image-container">
+            <h5 class="sale-badge">Sale</h5>
+            <img src="images/strawberry-shampoo.png" alt="Strawberry Shampoo" />
+          </div>
+          <div class="content-container">
+            <h5 class="product-title">
+              Strawberry Shampoo
+              <span class="product-price">$18.88</span>
+            </h5>
+            <ul class="product-features">
+              <li>Allergy Free</li>
+              <li>Best Product</li>
+              <li>Affordable Price</li>
+            </ul>
+            <button class="buy-button">
+              <img src="images/svg/button-cart.svg" alt="Cart Icon" />
+              Buy Now
+            </button>
+          </div>
+        </article>
+      </section>
+
+      <!-- Medical Products -->
+      <section class="text-center flex-column full-center">
+        <h3 class="font-24 fw-600 color-primary-blue">Medical Products</h3>
+        <div class="flex-wrap flex justify-center g-10 m-1200-width mx-auto">
+          <div class="relative br-10 overflow-hidden med-hw">
+            <div
+              class="absolute z-index-1 expand-position"
+              style="background-color: #c8d9db; opacity: 40%"
+            ></div>
+            <img
+              src="images\mask.png"
+              alt="mask-image"
+              class="w-full h-full"
+              style="transform: rotatey(180deg)"
+            />
+            <div
+              class="absolute flex-column align-start bg-none z-index-2"
+              style="left: 56px; top: 39px"
+            >
+              <h4
+                class="fw-400 m-0 from-font color-white p-3 rounded-full"
+                style="background-color: #f2971f; width: 83.62999725341797px"
+              >
+                From $0.99
+              </h4>
+              <h3 class="color-primary-blue bg-none med-head-font fw-500">
+                Breathable<span
+                  class="block align-start bg-none fmed-head-font fw-500"
+                  >Face Mask</span
+                >
+              </h3>
+
+              <button
+                class="fw-500 font-11 align-center bg-primary-blue color-white b-0 rounded-full med-button-font"
+                style="padding: 8px 13px"
+              >
+                Shop now <img src="images\svg\right-arrow.svg" alt="arrow icon"
+                class="bg-none ml-4"
+              </button>
+            </div>
+          </div>
+          <div class="relative br-10 overflow-hidden med-hw">
+            <div
+              class="absolute z-index-1 expand-position"
+              style="background-color: #c8d9db; opacity: 40%"
+            ></div>
+            <img
+              src="images\dressing.png"
+              alt="dressing-image"
+              class="w-full h-full"
+              style="transform: rotatey(180deg)"
+            />
+            <div
+              class="absolute flex-column align-start bg-none z-index-2"
+              style="left: 56px; top: 39px"
+            >
+              <h4
+                class="fw-400 m-0 from-font color-white p-3 rounded-full"
+                style="background-color: #f2971f; width: 83.62999725341797px"
+              >
+                From $0.99
+              </h4>
+              <h3
+                class="color-primary-blue bg-none med-head-font fw-500 text-left"
+              >
+                Medicine pack<span
+                  class="block align-start bg-none med-head-font fw-500"
+                  >Get it now 45% Off</span
+                >
+              </h3>
+
+              <button
+                class="fw-500 font-11 align-center bg-primary-blue color-white b-0 rounded-full med-button-font"
+                style="padding: 8px 13px"
+              >
+                Shop now <img src="images\svg\right-arrow.svg" alt="arrow icon"
+                class="bg-none ml-4"
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Delivery Commitment -->
+      <section
+        class="full-center flex flex-wrap mt-30 m-1200-width mx-auto"
+        style="gap: 55px"
+      >
+        <div class="relative">
+          <div class="triangle"></div>
+          <img
+            src="images\animation\hand-delivery.gif"
+            alt="Animated GIF"
+            class="absolute z-index-2 bg-none animation-s-p"
+          />
+        </div>
+
+        <h3 class="fw-500 delivery-heading-s" style="color: #2a3136">
+          Big city savings,
+          <span class="block">delivered to</span>
+          <span>your </span>
+          <span style="color: #fd273b">doorstep.</span>
+        </h3>
+      </section>
+
+      <!-- Testimonials -->
+      <section
+        style="text-align: center; max-width: 1200px; margin-inline: auto"
+      >
+        <h5 style="font-weight: 600; font-size: 24px; color: #184363">
+          Our Actions speaks louder than WORDS
+        </h5>
+        <div style="background-color: #b4fec4; padding: 59px 113px">
+          <div style="background-color: #b4fec4; text-align: start">
+            <h3
+              class="testimonial-h-s fw-400"
+              style="background-color: #b4fec4; color: #184363"
+            >
+              Unlock the secrets of satisfied customers.
+            </h3>
+            <div
+              style="
+                background-color: #b4fec4;
+                display: flex;
+                justify-content: flex-end;
+                gap: 10px;
+              "
+            >
+              <img
+                src="images\svg\arrow-right.svg"
+                alt="right-arrow icon"
+                style="border-radius: 999px; padding: 6px"
+              />
+              <img
+                src="images\svg\arrow-left.svg"
+                alt="left arrow icon"
+                style="border-radius: 999px; padding: 6px"
+              />
+            </div>
+          </div>
+          <div
+            class="flex-wrap"
+            style="
+              background-color: #b4fec4;
+              display: flex;
+              gap: 10px;
+              margin-top: 50px;
+              justify-content: center;
+              min-height: 368px;
+            "
+          >
+            <div
+              class="br-10"
+              style="
+                padding: 33px;
+                box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.3);
+                width: 308px;
+                max-height: 335px;
+              "
+            >
+              <p class="comment-s fw-400" style="font-family: sans-serif">
+                "Never going back to waiting in lines! Shop smarter, get it
+                delivered with QuickPik. It's that simple."
+              </p>
+              <div class="flex full-center" style="gap: 7px">
+                <img
+                  src="images\t-avtar-1.png"
+                  alt="testimonial avatar"
+                  class="rounded-full image-s"
+                />
+                <div
+                  class="flex-column text-left"
+                  style="justify-content: center; gap: 4px; align-items: start"
+                >
+                  <h6 class="name-s" style="margin: 0px; color: #184363">
+                    Albus stella
+                  </h6>
+                  <p
+                    class="title-s"
+                    style="margin: 0px; color: #184363; font-family: sans-serif"
+                  >
+                    Manager @ Howarts
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="br-10"
+              style="
+                padding: 33px;
+                box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.3);
+                width: 308px;
+                max-height: 368px;
+              "
+            >
+              <p class="comment-s fw-400" style="font-family: sans-serif">
+                "Wide selection, even in my small town! Found everything I
+                needed for my birthday party with just a few clicks. Thanks,
+                QuickPik!"
+              </p>
+              <div class="flex full-center" style="gap: 7px">
+                <img
+                  src="images\t-avtar-2.png"
+                  alt="testimonial avatar"
+                  class="rounded-full image-s"
+                />
+                <div
+                  class="flex-column text-left"
+                  style="justify-content: center; gap: 4px; align-items: start"
+                >
+                  <h6 class="name-s" style="margin: 0px; color: #184363">
+                    Severus Snape
+                  </h6>
+                  <p
+                    class="title-s"
+                    style="margin: 0px; color: #184363; font-family: sans-serif"
+                  >
+                    Manager @ Slytherin
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="br-10"
+              style="
+                padding: 33px;
+                box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.3);
+                width: 308px;
+                max-height: 335px;
+              "
+            >
+              <p class="comment-s fw-400" style="font-family: sans-serif">
+                "Lifesaver for busy families! Fresh groceries delivered in a
+                flash - dinner's on the table, thanks QuickPik!”
+              </p>
+              <div class="flex full-center" style="gap: 7px">
+                <img
+                  src="images\t-avtar-3.png"
+                  alt="testimonial avatar"
+                  class="rounded-full image-s"
+                />
+                <div
+                  class="flex-column text-left"
+                  style="justify-content: center; gap: 4px; align-items: start"
+                >
+                  <h6 class="name-s" style="margin: 0px; color: #184363">
+                    Harry brige
+                  </h6>
+                  <p
+                    class="title-s"
+                    style="margin: 0px; color: #184363; font-family: sans-serif"
+                  >
+                    Team Leader @ Gryffindor
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Exclusive offers -->
+      <section
+        class="flex justify-center m-1200-width mx-auto mt-30 wrap-only-s"
+        style="
+          background: linear-gradient(
+            88.81deg,
+            rgba(60, 218, 95, 0.3) -0.15%,
+            #f3f8ff 33.24%,
+            #ffffff 64.13%,
+            #f4f9ff 48.87%,
+            rgba(60, 218, 95, 0.3) 91.42%
+          );
+          box-shadow: 0px 4px 20px 0px #3cda5f1a;
+        "
+      >
+        <img
+          src="images\add-guy.png"
+          alt="guy dlevering coffe image"
+          class="bg-none image-resize"
+        />
+        <div class="flex-column bg-none justify-center" style="margin: 20px">
+          <h4
+            class="bg-none font-resize"
+            style="
+              font-family: Outfit;
+              font-weight: 600;
+              line-height: 100%;
+              letter-spacing: 0px;
+              vertical-align: middle;
+              color: #0a2640;
+            "
+          >
+            SignUp For Exclusive Offers And Discounts
+          </h4>
+          <button
+            class="bg-none b-0 br-10 py-10 button-resize"
+            style="
+              font-family: Outfit;
+              font-weight: 500;
+              line-height: 26px;
+              vertical-align: middle;
+              color: #fbfbfb;
+              background-color: #3cda5f;
+              width: fit-content;
+            "
+          >
+            Sign Up
+          </button>
+        </div>
+      </section>
+    </main>
+    <footer
+      class="text-center mt-30 m-1200-width mx-auto"
+      style="background-color: #0a2640; padding-block: 20px"
+    >
+      <div class="bg-none flex flex-wrap full-center gap-16">
+        <div class="bg-none flex-colom">
+          <h4
+            class="bg-none text-left m-0"
+            style="
+              font-weight: 500;
+              font-size: 40px;
+              line-height: 100%;
+              letter-spacing: 0px;
+              text-align: center;
+              color: white;
+              margin-block: 10px;
+              text-align: start;
+            "
+          >
+            Quick<span class="bg-none" style="color: #3cda5f">Pik</span>
+          </h4>
+          <p
+            class="bg-none text-left m-0"
+            style="
+              font-weight: 500;
+              font-size: 14px;
+              line-height: 100%;
+              letter-spacing: 0px;
+              color: white;
+              width: 206px;
+              margin-block: 10px;
+            "
+          >
+            Shop smarter, not harder. Get it delivered.
+          </p>
+          <div class="bg-none flex gap-8">
+            <img
+              src="images\svg\instagram.svg"
+              alt="instagram"
+              class="bg-none h-18"
+            />
+            <img src="images\svg\x.svg" alt="x" class="bg-none h-18" />
+            <img
+              src="images\svg\facebook.svg"
+              alt="facebook"
+              class="bg-none h-18"
+            />
+            <img
+              src="images\svg\youtube.svg"
+              alt="youtube"
+              class="bg-none h-18"
+            />
+          </div>
+        </div>
+        <ul class="bg-none no-style m-0">
+          <li class="bg-none color-white">Quick Links</li>
+          <li class="bg-none">
+            <a href="" class="bg-none no-underline color-white">Home</a>
+          </li>
+          <li class="bg-none">
+            <a href="" class="bg-none no-underline color-white">AboutUs</a>
+          </li>
+          <li class="bg-none">
+            <a href="" class="bg-none no-underline color-white">Services</a>
+          </li>
+          <li class="bg-none">
+            <a href="" class="bg-none no-underline color-white">Products</a>
+          </li>
+          <li class="bg-none">
+            <a href="" class="bg-none no-underline color-white">Contact Us</a>
+          </li>
+        </ul>
+        <ul class="bg-none no-style m-0">
+          <li class="bg-none no-underline color-white">Locations</li>
+          <li class="bg-none">
+            <a href="" class="bg-none no-underline color-white">Mumbai</a>
+          </li>
+          <li class="bg-none">
+            <a href="" class="bg-none no-underline color-white">Pune</a>
+          </li>
+          <li class="bg-none">
+            <a href="" class="bg-none no-underline color-white">Nagpur</a>
+          </li>
+          <li class="bg-none">
+            <a href="" class="bg-none no-underline color-white">Banglore</a>
+          </li>
+          <li class="bg-none">
+            <a href="" class="bg-none no-underline color-white">Goa</a>
+          </li>
+        </ul>
+        <!-- <div class="bg-none">
+          
+        </div> -->
+        <dotlottie-player
+          src="https://lottie.host/cae9fe6c-fa4a-4abb-81a8-ecbe0cae0552/hsaqx0bhQp.lottie"
+          background="transparent"
+          speed="1"
+          style="width: 152px; height: 152px; margin-top: 24px"
+          loop
+          autoplay
+          class="bg-none"
+        ></dotlottie-player>
+      </div>
+      <p
+        class="bg-none"
+        style="
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 100%;
+          letter-spacing: 0px;
+          color: white;
+        "
+      >
+        @All Rights Reserved QuickPik
+      </p>
+    </footer>
+  </body>
+</html>

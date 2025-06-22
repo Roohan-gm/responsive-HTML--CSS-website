@@ -1,0 +1,33 @@
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 200px solid transparent;
+  border-right: 200px solid transparent;
+  border-bottom: 275px solid #b1f9c6;
+}
+.animation-s-p {
+  width: 318px;
+  top: 3px;
+  left: 46px;
+}
+.delivery-heading-s {
+  font-size: 72px;
+}
+
+@media (max-width: 848px) {
+  .triangle {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 175px solid #b1f9c6;
+  }
+  .animation-s-p {
+    width: 250px;
+    top: -27px;
+    left: -54px;
+  }
+  .delivery-heading-s {
+    font-size: 36px;
+  }
+}

@@ -1,0 +1,24 @@
+* {
+  background-color: white;
+}
+body {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  margin: 0%;
+  font-family: "Outfit", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-fontsmoothing: grayscale;
+}
+input {
+  margin: 0px;
+}
+button {
+  margin: 0px;
+}
+a {
+  margin: 0px;
+}

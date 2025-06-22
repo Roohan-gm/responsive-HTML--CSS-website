@@ -1,0 +1,26 @@
+.hide-catagories {
+  display: none;
+}
+.px-30 {
+  padding-inline: 30px;
+}
+.px-30-ser {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+@media (min-width: 848px) {
+  .sm\:show-catagories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .px-30-ser {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .sm\:px-67 {
+    padding-right: 67px;
+    padding-left: 67px;
+  }
+}

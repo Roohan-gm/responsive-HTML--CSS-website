@@ -1,0 +1,17 @@
+.w-50{
+    width: 50px;
+}
+.h-50{
+    height: 50px;
+}
+
+.display-flex{
+        display: flex;
+        flex-direction: row;
+    }
+@media (max-width:848px){
+    .display-flex{
+        display: flex;
+        flex-direction: column;
+    }
+}

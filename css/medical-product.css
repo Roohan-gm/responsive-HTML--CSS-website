@@ -1,0 +1,28 @@
+.med-hw {
+  width: 402.01px;
+  height: 240px;
+}
+.from-font {
+  font-size: 12px;
+}
+.med-head-font {
+  font-size: 28px;
+}
+.med-button-font {
+  font-size: 15px;
+}
+@media (min-width:848px) {
+  .med-hw {
+    width: 491px;
+    height: 272px;
+  }
+  .from-font {
+    font-size: 10px;
+  }
+  .med-head-font {
+    font-size: 24px;
+  }
+  .med-button-font {
+    font-size: 12px;
+  }
+}
