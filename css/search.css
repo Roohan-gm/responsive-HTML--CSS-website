@@ -5,10 +5,18 @@
   padding-inline: 30px;
 }
 .px-30-ser {
-    margin-left: 30px;
-    margin-right: 30px;
-  }
-
+  margin-left: 30px;
+  margin-right: 30px;
+}
+input::placeholder {
+  color: #184363;
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
 @media (min-width: 848px) {
   .sm\:show-catagories {
     display: flex;

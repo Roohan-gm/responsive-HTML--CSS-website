@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Outfit:wght@100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Outfit:wght@100..900&display=swap"
       rel="stylesheet"
     />
 
@@ -45,31 +45,70 @@
     <header
       class="flex-space-between py-24 sm:px-67 px-30 mx-auto m-1200-width"
     >
-      <img src="images\logos\QuickPik.svg" alt="logo" />
+      <img
+        src="images\logos\QuickPik.svg"
+        alt="logo"
+        style="width: 110; height: 22"
+      />
       <div class="header-links gap-16 flex-center">
         <a
           href="index.html"
-          class="p-10 sm:show hidden color-primary-blue no-underline fw-500 font-20"
+          class="p-10 sm:show hidden no-underline fw-500"
+          style="
+            font-family: Outfit;
+            font-size: 16px;
+            line-height: 100%;
+            letter-spacing: 0px;
+            color: #0a2640;
+          "
           >Home</a
         >
         <a
           href="about-us.html"
-          class="p-10 sm:show hidden color-primary-blue no-underline fw-500 font-20"
+          class="p-10 sm:show hidden no-underline fw-500"
+          style="
+            font-family: Outfit;
+            font-size: 16px;
+            line-height: 100%;
+            letter-spacing: 0px;
+            color: #0a2640;
+          "
           >About us</a
         >
         <a
           href="products.html"
-          class="p-10 sm:show hidden color-primary-blue no-underline fw-500 font-20"
+          class="p-10 sm:show hidden no-underline fw-500"
+          style="
+            font-family: Outfit;
+            font-size: 16px;
+            line-height: 100%;
+            letter-spacing: 0px;
+            color: #0a2640;
+          "
           >Products</a
         >
         <a
           href="servicea.html"
-          class="p-10 sm:show hidden color-primary-blue no-underline fw-500 font-20"
+          class="p-10 sm:show hidden no-underline fw-500"
+          style="
+            font-family: Outfit;
+            font-size: 16px;
+            line-height: 100%;
+            letter-spacing: 0px;
+            color: #0a2640;
+          "
           >Services</a
         >
         <a
           href="contact-us.html"
-          class="p-10 sm:show hidden color-primary-blue no-underline fw-500 font-20"
+          class="p-10 sm:show hidden no-underline fw-500"
+          style="
+            font-family: Outfit;
+            font-size: 16px;
+            line-height: 100%;
+            letter-spacing: 0px;
+            color: #0a2640;
+          "
           >Contact us</a
         >
       </div>
@@ -79,16 +118,23 @@
         >
           <a
             href="#"
-            class="color-white p-5 flex fw-500 font-20 bg-secondary-green text-center no-underline br-10"
+            class="color-white flex fw-500 font-20 bg-secondary-green text-center no-underline br-10"
+            style="
+              font-family: 'Outfit', sans-serif;
+              line-height: 100%;
+              letter-spacing: 0px;
+              padding-block: 10px;
+              padding-inline: 34px;
+            "
             >ShopNow</a
           >
         </div>
         <img
           src="images/svg/iconamoon_profile-circle-fill.svg"
           alt="profile"
-          class="p-10 mr-10"
+          style="margin-right: 15px"
         />
-        <img src="images\svg\mdi_cart.svg" alt="cart" class="p-10" />
+        <img src="images\svg\mdi_cart.svg" alt="cart" />
 
         <img
           src="images\svg\bars-solid.svg"
@@ -99,91 +145,257 @@
     </header>
     <!-- Searh bar-->
     <div
-      class="flex center mx-auto w-full sm:px-67 py-10 m-1200-width"
       style="
         border-bottom: hsl(137, 84%, 83%) 2px solid;
         background-color: hsl(137, 84%, 96%);
       "
     >
-      <a
-        href="#"
-        class="p-10 rounded-full no-underline color-primary-blue font-15 bg-white hide-catagories sm:show-catagories mr-5"
-      >
-        <img src="images\svg\cateogarie.svg" alt="cateogarie" class="mr-5" />All
-        Categories</a
-      >
       <div
-        class="search-input flex flex-grow-1 px-30-ser"
-        style="background-color: hsl(137, 84%, 96%)"
+        class="flex center mx-auto w-full sm:px-67 py-10 m-1200-width"
+        style="background-color: unset"
       >
-        <input
-          type="text"
-          placeholder="What are you looking for?"
+        <a
+          href="#"
           style="
-            ::placeholder {
-              color: #184363;
-            }
+            font-family: 'Outfit', sans-serif;
+            font-weight: 500;
+            line-height: 22px;
+            letter-spacing: 0%;
+            text-align: center;
+            vertical-align: middle;
+            color: #184363;
+            padding-inline: 18px;
+            padding-block: 11.5px;
+            margin-right: 3px;
+            width: 156px;
+            height: 45px;
+            border-radius: 45px;
           "
-          class="b-0 w-full mr-0 bg-white p-10 font-14 fw-500 br-l-full"
-        />
-        <a class="bg-secondary-green br-r-full p-10 ml-0 flex">
+          class="p-10 rounded-full no-underline font-15 hide-catagories sm:show-catagories"
+        >
           <img
-            src="images\svg\search.svg"
-            alt="search"
-            class="bg-secondary-green"
+            src="images\svg\cateogarie.svg"
+            alt="cateogarie"
+            class="mr-5"
+          />All Categories</a
+        >
+        <div
+          class="search-input flex flex-grow-1 px-30-ser"
+          style="background-color: hsl(137, 84%, 96%)"
+        >
+          <input
+            type="text"
+            placeholder="What are you looking for?"
+            style="padding-left: 17px; padding-top: 14px; padding-bottom: 15px"
+            class="b-0 w-full mr-0 bg-white br-l-full"
           />
-        </a>
+          <a
+            style="
+              width: 56px;
+              height: 47px;
+              border-top-right-radius: 47px;
+              border-bottom-right-radius: 47px;
+              background-color: #3cda5f;
+              padding-block: 12.96px;
+              padding-inline: 16.2px;
+            "
+            class="p-10 ml-0 flex"
+          >
+            <img
+              src="images\svg\search.svg"
+              alt="search"
+              style="width: 20px; height: 20px"
+              class="bg-secondary-green"
+            />
+          </a>
+        </div>
       </div>
     </div>
+
     <main>
       <!-- Hero Section -->
       <section
-        class="sm-hero m-1200-width min-h-y limit-margin g-20 full-center p-20 b-box"
+        style="
+          margin-inline: 65px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 245.01px;
+        "
+        class="b-box sm-hero"
       >
-        <div class="hero-content flex-1 mw-600">
-          <h4
-            class="sm-hero-w-full off-place w-90 br-20 p-xy-10-20 bg-off color-off font-off"
+        <div
+          style="
+            padding-top: 64px;
+            padding-top: 64px;
+            display: flex;
+            flex-direction: column;
+          "
+        >
+          <div
+            style="
+              width: 405px;
+              height: 35px;
+              border-radius: 30px;
+              background-color: #3cda5f0d;
+              padding-inline: 20px;
+              padding-block: 8px;
+              text-align: start;
+              margin-bottom: 7px;
+            "
           >
-            30% Off on groceries
-          </h4>
-          <h1 class="font-hero color-h hero-align">
-            Shop smart, <span class="hero-align">not hard.</span>
-          </h1>
-          <div class="overflow-hidden">
-            <h1 class="hero-align font-hero hero-animation m-0"
-            >Get it ordered.</h1>
+            <h4
+              style="
+                font-family: 'Outfit', sans-serif;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 100%;
+                letter-spacing: 0px;
+                color: #0a2640;
+                background-color: unset;
+                margin: 0px;
+              "
+              class=" "
+            >
+              30% Off on groceries
+            </h4>
+          </div>
+          <div style="margin: 0px">
+            <h1 style="margin: 0px" class="font-hero color-h hero-align">
+              Shop smart,
+              <span class="hero-align" style="display: block">not hard.</span>
+            </h1>
           </div>
 
-          <p class="hero-align color-black font-h-p">
+          <div class="overflow-hidden">
+            <h1 class="hero-align font-hero hero-animation m-0">
+              Get it ordered.
+            </h1>
+          </div>
+
+          <p
+            style="
+              margin: 0px;
+              font-family: Outfit;
+              font-weight: 300;
+              font-size: 20px;
+              line-height: 100%;
+              letter-spacing: 0px;
+            "
+            class="hero-align color-black"
+          >
             Save time, skip the lines. We've got you covered.
           </p>
           <button
-            class="hero-button bg-secondary-green color-white fw-700 p-xy-10-20 b-0 br-8 hero-b-dis"
+            style="
+              margin-top: 46px;
+              width: 154px;
+              height: 45px;
+              border-radius: 10px;
+              padding-block: 10px;
+              padding-inline: 33.5px;
+              background-color: #3cda5f;
+              font-weight: 600;
+              font-size: 20px;
+              line-height: 100%;
+              letter-spacing: 0px;
+            "
+            class="color-white b-0"
           >
             ShopNow
           </button>
         </div>
         <div
-          class="hero-image flex-1 flex justify-center relative mg-con-t mt-12 mx-w-ic mx-h-ic mb-117 top-c-10"
+          style="
+            /* padding-top: 45px; */
+            height: 305.260218px; /* top: -152px; */
+            left: -151px;
+          "
+          class="relative"
         >
           <img
             src="images/hero/background-ellipse.png"
-            class="w-full contain mx-h-limit sm-mx-h-image absolute z-index-0 mx-h-ib"
+            style="
+              width: 586px;
+              height: 413px;
+              left: 0px;
+              right: 0px;
+              top: 0px;
+              bottom: 0px;
+              background: unset;
+            "
+            class="absolute z-index-0"
           />
           <img
             src="images/hero/girl.png"
-            class="w-full contain mx-h-limit sm-mx-h-image z-index-1 left-10 bg-none absolute mx-h-ig t-g-n-42"
+            style="
+              width: 617.937799px;
+              height: 469.260218px;
+              /* left: -162px; */
+              top: -64px;
+              left: -8px;
+            "
+            class="absolute bg-none z-index-1"
           />
           <div
-            class="z-index-2 flex relative t-r l-r br-10 w-r p-10 bg-white b-shadow-r"
+            class="b-shadow-r bg-white br-10 flex l-r relative t-r w-r z-index-2"
+            style="
+              width: 439px;
+              height: 95px;
+              top: 326px;
+              left: 57px;
+              border-radius: 15px;
+              gap: 21px;
+              align-items: center;
+              padding-inline: 19px;
+              padding-block: 15px;
+            "
           >
             <img
               src="images/hero/avatar.png"
-              class="w-full contain mx-h-limit sm-mx-h-image mw-39 m-r-3"
+              class=""
+              style="
+                width: 68px;
+                height: 65px;
+                /* top: 595px; */
+                /* left: 789px; */
+              "
             />
-            <div class="flex-column justify-center w-349">
-              <h6 class="m-0 font-r fw-500 text-left">Ashely Daniels</h6>
-              <p class="m-0 font-r text-left color-gray">
+            <div
+              class="flex-column justify-center"
+              style="
+                /* align-items: center; */
+                /* width: 439px; */
+                /* height: 95px; */
+                /* top: 580px; */
+                /* left: 770px; */
+                /* border-radius: 15px; */
+              "
+            >
+              <h6
+                class="font-r fw-500 m-0 text-left"
+                style="
+                  font-family: Outfit;
+                  font-weight: 500;
+                  font-size: 15px;
+                  line-height: 100%;
+                  letter-spacing: 0px;
+                  color: #000000;
+                "
+              >
+                Ashely Daniels
+              </h6>
+              <p
+                class="m-0 font-r text-left color-gray"
+                style="
+                  font-family: Outfit;
+                  font-weight: 500;
+                  font-size: 15px;
+                  line-height: 100%;
+                  letter-spacing: 0px;
+                  color: #777676;
+                "
+              >
                 "Saved me tons of time - never going back to grocery shopping!"
               </p>
             </div>
@@ -192,8 +404,32 @@
       </section>
 
       <!-- Trending Products -->
-      <section class="flex-column align-center mb-50 m-1200-width mx-auto">
-        <h3 class="color-primary-blue font-20 fw-600">Trending Products</h3>
+      <section
+        class="flex-column align-center mb-50 m-1200-width mx-auto"
+        style="margin-top: 59px"
+      >
+        <div class="relative">
+          <h3
+            class="color-primary-blue font-20 fw-600"
+            style="
+              font-family: Outfit;
+              font-weight: 600;
+              font-size: 20px;
+              line-height: 100%;
+              color: #0a2640;
+              letter-spacing: 0px;
+            "
+          >
+            Trending Products
+          </h3>
+          <img
+            class="absolute"
+            src="images\svg\trending line.svg"
+            alt=""
+            style="background: unset; top: 32px; left: 136px"
+          />
+        </div>
+
         <div class="flex-center g-10 flex-wrap gap-16 w-full">
           <div class="flex-column align-center">
             <img
@@ -237,7 +473,6 @@
           </div>
         </div>
       </section>
-
       <!-- Weekly Deals -->
       <section class="mt-50 m-1200-width mx-auto display-flex full-center g-20">
         <h2 class="color-primary-blue fw-700 font-24 m-0">Deal Of The Week</h2>
@@ -367,8 +602,14 @@
                 class="fw-500 font-11 align-center bg-primary-blue color-white b-0 rounded-full med-button-font"
                 style="padding: 8px 13px"
               >
-                Shop now <img src="images\svg\right-arrow.svg" alt="arrow icon"
-                class="bg-none ml-4"
+                Shop now
+                <img
+                  src="images\svg\right-arrow.svg"
+                  alt="arrow icon"
+                  class="bg-none ml-4"
+                  <=""
+                  button=""
+                />
               </button>
             </div>
           </div>
@@ -406,8 +647,14 @@
                 class="fw-500 font-11 align-center bg-primary-blue color-white b-0 rounded-full med-button-font"
                 style="padding: 8px 13px"
               >
-                Shop now <img src="images\svg\right-arrow.svg" alt="arrow icon"
-                class="bg-none ml-4"
+                Shop now
+                <img
+                  src="images\svg\right-arrow.svg"
+                  alt="arrow icon"
+                  class="bg-none ml-4"
+                  <=""
+                  button=""
+                />
               </button>
             </div>
           </div>
@@ -437,173 +684,211 @@
       </section>
 
       <!-- Testimonials -->
-      <section
-        style="text-align: center; max-width: 1200px; margin-inline: auto"
-      >
-        <h5 style="font-weight: 600; font-size: 24px; color: #184363">
-          Our Actions speaks louder than WORDS
-        </h5>
-        <div style="background-color: #b4fec4; padding: 59px 113px">
-          <div style="background-color: #b4fec4; text-align: start">
-            <h3
-              class="testimonial-h-s fw-400"
-              style="background-color: #b4fec4; color: #184363"
-            >
-              Unlock the secrets of satisfied customers.
-            </h3>
+      <section class="text-center relative" style="background-color: #b4fec4">
+        <img
+          src="images/testimonial-bg.png"
+          alt="bg"
+          class="absolute expand-position"
+        />
+        <div class="relative">
+          <h5 style="font-weight: 600; font-size: 24px; color: #184363">
+            Our Actions speak louder than WORDS
+          </h5>
+          <div style="background-color: #b4fec4; padding: 59px 113px">
+            <div style="background-color: #b4fec4; text-align: start">
+              <h3
+                class="testimonial-h-s fw-400"
+                style="background-color: #b4fec4; color: #184363"
+              >
+                Unlock the secrets of satisfied customers.
+              </h3>
+              <div
+                style="
+                  background-color: #b4fec4;
+                  display: flex;
+                  justify-content: flex-end;
+                  gap: 10px;
+                "
+              >
+                <img
+                  src="images/svg/arrow-right.svg"
+                  alt="right-arrow icon"
+                  style="border-radius: 999px; padding: 6px"
+                />
+                <img
+                  src="images/svg/arrow-left.svg"
+                  alt="left arrow icon"
+                  style="border-radius: 999px; padding: 6px"
+                />
+              </div>
+            </div>
             <div
+              class="flex-wrap"
               style="
                 background-color: #b4fec4;
                 display: flex;
-                justify-content: flex-end;
                 gap: 10px;
+                margin-top: 50px;
+                justify-content: center;
+                min-height: 368px;
               "
             >
-              <img
-                src="images\svg\arrow-right.svg"
-                alt="right-arrow icon"
-                style="border-radius: 999px; padding: 6px"
-              />
-              <img
-                src="images\svg\arrow-left.svg"
-                alt="left arrow icon"
-                style="border-radius: 999px; padding: 6px"
-              />
-            </div>
-          </div>
-          <div
-            class="flex-wrap"
-            style="
-              background-color: #b4fec4;
-              display: flex;
-              gap: 10px;
-              margin-top: 50px;
-              justify-content: center;
-              min-height: 368px;
-            "
-          >
-            <div
-              class="br-10"
-              style="
-                padding: 33px;
-                box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.3);
-                width: 308px;
-                max-height: 335px;
-              "
-            >
-              <p class="comment-s fw-400" style="font-family: sans-serif">
-                "Never going back to waiting in lines! Shop smarter, get it
-                delivered with QuickPik. It's that simple."
-              </p>
-              <div class="flex full-center" style="gap: 7px">
-                <img
-                  src="images\t-avtar-1.png"
-                  alt="testimonial avatar"
-                  class="rounded-full image-s"
-                />
-                <div
-                  class="flex-column text-left"
-                  style="justify-content: center; gap: 4px; align-items: start"
+              <div
+                class="br-10"
+                style="
+                  padding: 33px;
+                  box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.3);
+                  width: 308px;
+                  max-height: 335px;
+                "
+              >
+                <p
+                  class="comment-s fw-400"
+                  style="font-family: 'Open Sans', sans-serif"
                 >
-                  <h6 class="name-s" style="margin: 0px; color: #184363">
-                    Albus stella
-                  </h6>
-                  <p
-                    class="title-s"
-                    style="margin: 0px; color: #184363; font-family: sans-serif"
+                  "Never going back to waiting in lines! Shop smarter, get it
+                  delivered with QuickPik. It's that simple."
+                </p>
+                <div class="flex full-center" style="gap: 7px">
+                  <img
+                    src="images/t-avtar-1.png"
+                    alt="testimonial avatar"
+                    class="rounded-full image-s"
+                  />
+                  <div
+                    class="flex-column text-left"
+                    style="
+                      justify-content: center;
+                      gap: 4px;
+                      align-items: start;
+                    "
                   >
-                    Manager @ Howarts
-                  </p>
+                    <h6 class="name-s" style="margin: 0px; color: #184363">
+                      Albus Stella
+                    </h6>
+                    <p
+                      class="title-s"
+                      style="
+                        margin: 0px;
+                        color: #184363;
+                        font-family: 'Open Sans', sans-serif;
+                      "
+                    >
+                      Manager @ Howarts
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div
-              class="br-10"
-              style="
-                padding: 33px;
-                box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.3);
-                width: 308px;
-                max-height: 368px;
-              "
-            >
-              <p class="comment-s fw-400" style="font-family: sans-serif">
-                "Wide selection, even in my small town! Found everything I
-                needed for my birthday party with just a few clicks. Thanks,
-                QuickPik!"
-              </p>
-              <div class="flex full-center" style="gap: 7px">
-                <img
-                  src="images\t-avtar-2.png"
-                  alt="testimonial avatar"
-                  class="rounded-full image-s"
-                />
-                <div
-                  class="flex-column text-left"
-                  style="justify-content: center; gap: 4px; align-items: start"
+              <div
+                class="br-10"
+                style="
+                  padding: 33px;
+                  box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.3);
+                  width: 308px;
+                  max-height: 368px;
+                "
+              >
+                <p
+                  class="comment-s fw-400"
+                  style="font-family: 'Open Sans', sans-serif"
                 >
-                  <h6 class="name-s" style="margin: 0px; color: #184363">
-                    Severus Snape
-                  </h6>
-                  <p
-                    class="title-s"
-                    style="margin: 0px; color: #184363; font-family: sans-serif"
+                  "Wide selection, even in my small town! Found everything I
+                  needed for my birthday party with just a few clicks. Thanks,
+                  QuickPik!"
+                </p>
+                <div class="flex full-center" style="gap: 7px">
+                  <img
+                    src="images/t-avtar-2.png"
+                    alt="testimonial avatar"
+                    class="rounded-full image-s"
+                  />
+                  <div
+                    class="flex-column text-left"
+                    style="
+                      justify-content: center;
+                      gap: 4px;
+                      align-items: start;
+                    "
                   >
-                    Manager @ Slytherin
-                  </p>
+                    <h6 class="name-s" style="margin: 0px; color: #184363">
+                      Severus Snape
+                    </h6>
+                    <p
+                      class="title-s"
+                      style="
+                        margin: 0px;
+                        color: #184363;
+                        font-family: 'Open Sans', sans-serif;
+                      "
+                    >
+                      Manager @ Slytherin
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div
-              class="br-10"
-              style="
-                padding: 33px;
-                box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.3);
-                width: 308px;
-                max-height: 335px;
-              "
-            >
-              <p class="comment-s fw-400" style="font-family: sans-serif">
-                "Lifesaver for busy families! Fresh groceries delivered in a
-                flash - dinner's on the table, thanks QuickPik!”
-              </p>
-              <div class="flex full-center" style="gap: 7px">
-                <img
-                  src="images\t-avtar-3.png"
-                  alt="testimonial avatar"
-                  class="rounded-full image-s"
-                />
-                <div
-                  class="flex-column text-left"
-                  style="justify-content: center; gap: 4px; align-items: start"
+              <div
+                class="br-10"
+                style="
+                  padding: 33px;
+                  box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.3);
+                  width: 308px;
+                  max-height: 335px;
+                "
+              >
+                <p
+                  class="comment-s fw-400"
+                  style="font-family: 'Open Sans', sans-serif"
                 >
-                  <h6 class="name-s" style="margin: 0px; color: #184363">
-                    Harry brige
-                  </h6>
-                  <p
-                    class="title-s"
-                    style="margin: 0px; color: #184363; font-family: sans-serif"
+                  "Lifesaver for busy families! Fresh groceries delivered in a
+                  flash - dinner's on the table, thanks QuickPik!"
+                </p>
+                <div class="flex full-center" style="gap: 7px">
+                  <img
+                    src="images/t-avtar-3.png"
+                    alt="testimonial avatar"
+                    class="rounded-full image-s"
+                  />
+                  <div
+                    class="flex-column text-left"
+                    style="
+                      justify-content: center;
+                      gap: 4px;
+                      align-items: start;
+                    "
                   >
-                    Team Leader @ Gryffindor
-                  </p>
+                    <h6 class="name-s" style="margin: 0px; color: #184363">
+                      Harry Brige
+                    </h6>
+                    <p
+                      class="title-s"
+                      style="
+                        margin: 0px;
+                        color: #184363;
+                        font-family: 'Open Sans', sans-serif;
+                      "
+                    >
+                      Team Leader @ Gryffindor
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-
       <!-- Exclusive offers -->
       <section
-        class="flex justify-center m-1200-width mx-auto mt-30 wrap-only-s"
+        class="flex justify-center mt-30 wrap-only-s"
         style="
           background: linear-gradient(
             88.81deg,
             rgba(60, 218, 95, 0.3) -0.15%,
             #f3f8ff 33.24%,
             #ffffff 64.13%,
-            #f4f9ff 48.87%,
-            rgba(60, 218, 95, 0.3) 91.42%
+            #f4f9ff 78.87%,
+            rgba(60, 218, 95, 0.3) 109.42%
           );
+
           box-shadow: 0px 4px 20px 0px #3cda5f1a;
         "
       >
@@ -644,19 +929,30 @@
       </section>
     </main>
     <footer
-      class="text-center mt-30 m-1200-width mx-auto"
-      style="background-color: #0a2640; padding-block: 20px"
+      class="text-center mt-30"
+      style="
+        background-color: #0a2640;
+        padding-block: 89px;
+        padding-inline: 150px;
+      "
     >
-      <div class="bg-none flex flex-wrap full-center gap-16">
+      <div
+        class="bg-none gap-16"
+        style="
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 141px;
+        "
+      >
         <div class="bg-none flex-colom">
           <h4
             class="bg-none text-left m-0"
             style="
               font-weight: 500;
-              font-size: 40px;
+              font-size: 51px;
               line-height: 100%;
               letter-spacing: 0px;
-              text-align: center;
               color: white;
               margin-block: 10px;
               text-align: start;
@@ -668,81 +964,170 @@
             class="bg-none text-left m-0"
             style="
               font-weight: 500;
-              font-size: 14px;
+              font-size: 24px;
               line-height: 100%;
               letter-spacing: 0px;
               color: white;
               width: 206px;
-              margin-block: 10px;
+              margin-bottom: 11px;
             "
           >
             Shop smarter, not harder. Get it delivered.
           </p>
-          <div class="bg-none flex gap-8">
+          <div class="bg-none flex gap-18">
             <img
               src="images\svg\instagram.svg"
               alt="instagram"
-              class="bg-none h-18"
+              class="bg-none"
             />
-            <img src="images\svg\x.svg" alt="x" class="bg-none h-18" />
-            <img
-              src="images\svg\facebook.svg"
-              alt="facebook"
-              class="bg-none h-18"
-            />
-            <img
-              src="images\svg\youtube.svg"
-              alt="youtube"
-              class="bg-none h-18"
-            />
+            <img src="images\svg\x.svg" alt="x" class="bg-none" />
+            <img src="images\svg\facebook.svg" alt="facebook" class="bg-none" />
+            <img src="images\svg\youtube.svg" alt="youtube" class="bg-none" />
           </div>
         </div>
-        <ul class="bg-none no-style m-0">
-          <li class="bg-none color-white">Quick Links</li>
-          <li class="bg-none">
+        <ul class="bg-none no-style m-0 flex-column gap-8">
+          <li
+            class="bg-none color-white"
+            style="
+              font-weight: 500;
+              font-size: 24px;
+              line-height: 100%;
+              letter-spacing: 0px;
+            "
+          >
+            Quick Links
+          </li>
+          <li
+            style="
+              font-weight: 500;
+              font-size: 24px;
+              line-height: 100%;
+              letter-spacing: 0px;
+            "
+            class="bg-none"
+          >
             <a href="" class="bg-none no-underline color-white">Home</a>
           </li>
-          <li class="bg-none">
+          <li
+            style="
+              font-weight: 500;
+              font-size: 24px;
+              line-height: 100%;
+              letter-spacing: 0px;
+            "
+            class="bg-none"
+          >
             <a href="" class="bg-none no-underline color-white">AboutUs</a>
           </li>
-          <li class="bg-none">
+          <li
+            style="
+              font-weight: 500;
+              font-size: 24px;
+              line-height: 100%;
+              letter-spacing: 0px;
+            "
+            class="bg-none"
+          >
             <a href="" class="bg-none no-underline color-white">Services</a>
           </li>
-          <li class="bg-none">
+          <li
+            style="
+              font-weight: 500;
+              font-size: 24px;
+              line-height: 100%;
+              letter-spacing: 0px;
+            "
+            class="bg-none"
+          >
             <a href="" class="bg-none no-underline color-white">Products</a>
           </li>
-          <li class="bg-none">
+          <li
+            style="
+              font-weight: 500;
+              font-size: 24px;
+              line-height: 100%;
+              letter-spacing: 0px;
+            "
+            class="bg-none"
+          >
             <a href="" class="bg-none no-underline color-white">Contact Us</a>
           </li>
         </ul>
-        <ul class="bg-none no-style m-0">
-          <li class="bg-none no-underline color-white">Locations</li>
-          <li class="bg-none">
+        <ul class="bg-none no-style m-0 flex-column gap-8">
+          <li
+            style="
+              font-weight: 500;
+              font-size: 24px;
+              line-height: 100%;
+              letter-spacing: 0px;
+            "
+            class="bg-none no-underline color-white"
+          >
+            Locations
+          </li>
+          <li
+            style="
+              font-weight: 500;
+              font-size: 24px;
+              line-height: 100%;
+              letter-spacing: 0px;
+            "
+            class="bg-none"
+          >
             <a href="" class="bg-none no-underline color-white">Mumbai</a>
           </li>
-          <li class="bg-none">
+          <li
+            style="
+              font-weight: 500;
+              font-size: 24px;
+              line-height: 100%;
+              letter-spacing: 0px;
+            "
+            class="bg-none"
+          >
             <a href="" class="bg-none no-underline color-white">Pune</a>
           </li>
-          <li class="bg-none">
+          <li
+            style="
+              font-weight: 500;
+              font-size: 24px;
+              line-height: 100%;
+              letter-spacing: 0px;
+            "
+            class="bg-none"
+          >
             <a href="" class="bg-none no-underline color-white">Nagpur</a>
           </li>
-          <li class="bg-none">
+          <li
+            style="
+              font-weight: 500;
+              font-size: 24px;
+              line-height: 100%;
+              letter-spacing: 0px;
+            "
+            class="bg-none"
+          >
             <a href="" class="bg-none no-underline color-white">Banglore</a>
           </li>
-          <li class="bg-none">
+          <li
+            style="
+              font-weight: 500;
+              font-size: 24px;
+              line-height: 100%;
+              letter-spacing: 0px;
+            "
+            class="bg-none"
+          >
             <a href="" class="bg-none no-underline color-white">Goa</a>
           </li>
         </ul>
-        <!-- <div class="bg-none">
-          
-        </div> -->
         <dotlottie-player
           src="https://lottie.host/cae9fe6c-fa4a-4abb-81a8-ecbe0cae0552/hsaqx0bhQp.lottie"
           background="transparent"
           speed="1"
-          style="width: 152px; height: 152px; margin-top: 24px"
-          loop
-          autoplay
+          style="width: 308px; height: 234px"
+          loop=""
+          autoplay=""
           class="bg-none"
         ></dotlottie-player>
       </div>
@@ -750,7 +1135,7 @@
         class="bg-none"
         style="
           font-weight: 500;
-          font-size: 14px;
+          font-size: 24px;
           line-height: 100%;
           letter-spacing: 0px;
           color: white;
