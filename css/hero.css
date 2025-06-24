@@ -8,7 +8,7 @@
 .hero-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 13.4375rem;
 }
 
 .hero-content {
@@ -160,6 +160,7 @@
   }
   .hero-container {
     flex-direction: column;
+    gap: 10rem;
   }
 
   .hero-content,
@@ -198,6 +199,9 @@
     max-width: 100%;
     padding: 1.0625rem;
     margin: 0 auto;
+  }
+  .hero-container {
+    gap: 7rem;
   }
   .hero-title {
     font-size: 3rem;

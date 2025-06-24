@@ -1,4 +1,4 @@
-.from-font {
+/* .from-font {
   font-size: 12px;
 }
 .med-head-font {
@@ -70,5 +70,85 @@
   .med-product {
     width: fit-content;
     height: fit-content;
+  }
+} */
+
+.from-font {
+  font-size: 0.75rem;
+}
+.med-head-font {
+  font-size: 1.75rem;
+}
+.med-button-font {
+  font-size: 0.9375rem;
+}
+.med-container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 90rem;
+  padding-inline: 6.25rem;
+}
+.med-content-position {
+  left: 3.5rem;
+  top: 2.4375rem;
+}
+.med-product {
+  width: 38rem;
+  height: 16.875rem;
+}
+
+.med-pro-con {
+  font-family: "Outfit", sans-serif;
+  line-height: 2.25rem;
+  letter-spacing: 0px;
+  color: #184363;
+  vertical-align: middle;
+}
+.med-text-margin {
+  margin-block: 1.875rem;
+}
+@media (max-width: 48rem) {
+  .med-text-margin {
+    margin-block: 0.875rem;
+  }
+}
+@media (max-width: 26.5625rem) {
+  .med-text-margin {
+    margin-block: 0.625rem;
+  }
+  .med-content-position {
+    left: 1.5rem;
+    top: 1.125rem;
+  }
+}
+@media (min-width: 53.0625rem) {
+  .from-font {
+    font-size: 0.625rem;
+  }
+  .med-head-font {
+    font-size: 1.5rem;
+  }
+  .med-button-font {
+    font-size: 0.75rem;
+  }
+}
+@media (max-width: 53.0625rem) {
+  .med-container {
+    display: flex;
+    margin: 0 auto;
+    max-width: 90rem;
+    padding-inline: 0.75rem;
+  }
+  .med-pro-con {
+    font-family: "Outfit", sans-serif;
+    line-height: 2.25rem;
+    letter-spacing: 0px;
+    color: #184363;
+    vertical-align: middle;
+    margin: 0.625rem;
+  }
+  .med-product {
+    width: auto;
+    height: auto;
   }
 }

@@ -5,13 +5,13 @@
 }
 
 @keyframes slideGradient {
-  0%{
+  0% {
     background-position: 0%;
   }
-  50%{
+  50% {
     background-position: 100%;
   }
-  100%{
+  100% {
     background-position: 0%;
   }
 }
@@ -19,8 +19,30 @@
 .hidden {
   display: none;
 }
-.show-ham{
+.show-ham {
   display: inline;
+}
+.header-p {
+  padding-right: 90px;
+  padding-left: 67px;
+}
+@media (max-width: 768px) {
+  .header-p {
+    padding-right: 57px;
+    padding-left: 34px;
+  }
+}
+@media (max-width: 425px) {
+  .header-p {
+    padding-right: 46px;
+    padding-left: 23px;
+  }
+}
+@media (max-width: 320px) {
+  .header-p {
+    padding-right: 40px;
+    padding-left: 17px;
+  }
 }
 @media (min-width: 848px) {
   .sm\:show {
@@ -28,5 +50,9 @@
   }
   .sm\:hide-ham {
     display: none;
+  }
+  .header-p {
+    padding-right: 80px;
+    padding-left: 57px;
   }
 }
