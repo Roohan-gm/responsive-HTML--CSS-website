@@ -26,6 +26,18 @@
   vertical-align: middle;
 }
 
+
+@media (min-width: 848px) {
+  .from-font {
+    font-size: 10px;
+  }
+  .med-head-font {
+    font-size: 24px;
+  }
+  .med-button-font {
+    font-size: 12px;
+  }
+}
 @media (max-width: 848px) {
   .med-container {
     display: flex;
@@ -42,18 +54,7 @@
     margin: 10px;
   }
   .med-product {
-    /* width: 608px;
-    height: 270px; */
-  }
-}
-@media (min-width: 848px) {
-  .from-font {
-    font-size: 10px;
-  }
-  .med-head-font {
-    font-size: 24px;
-  }
-  .med-button-font {
-    font-size: 12px;
+    width: fit-content;
+    height: fit-content;
   }
 }
