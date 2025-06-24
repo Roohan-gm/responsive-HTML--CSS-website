@@ -10,6 +10,14 @@
 .mw-600 {
   max-width: 600px;
 }
+.hero-gap {
+  gap: 390.01px;
+}
+@media (max-width: 1440px) {
+  .hero-gap {
+    gap: 135.01px;
+  }
+}
 .w-90 {
   width: 90%;
 }

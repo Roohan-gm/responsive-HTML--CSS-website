@@ -1,0 +1,119 @@
+footer {
+  color: white;
+  background-color: #0a2640;
+  margin-top: 25px;
+}
+
+.footer-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-inline: 148px;
+  padding-block: 89px;
+  background-color: unset;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: unset;
+  gap: 85px;
+  background-color: unset;
+}
+
+.footer-section > div,
+.footer-section > ul {
+  flex: 1 1 200px;
+  max-width: 200px;
+  background-color: unset;
+}
+
+.footer-section h4 {
+  margin-bottom: 10px;
+  text-align: start;
+  background-color: unset;
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  font-size: 51px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  margin-top: 0px;
+}
+
+.footer-section p {
+  margin-bottom: 11px;
+  background-color: unset;
+  text-align: start;
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: unset;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+  background-color: unset;
+  font-family: "Outfit";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+
+.footer-section ul li a {
+  color: white;
+  text-decoration: none;
+  background-color: unset;
+}
+
+.footer-section .social-icons {
+  display: flex;
+  gap: 18px;
+  margin-bottom: 30px;
+  background-color: unset;
+}
+
+.footer-section .social-icons img {
+  width: 24px;
+  height: 24px;
+  background-color: unset;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 32px;
+  background-color: unset;
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+
+@media (max-width: 768px) {
+  .footer-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-section > div,
+  .footer-section > ul {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .footer-section .social-icons {
+    justify-content: center;
+  }
+}
