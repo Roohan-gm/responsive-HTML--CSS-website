@@ -1050,17 +1050,29 @@
         Our Actions speak louder than WORDS
       </h5>
       <section
+        class="low-opacity-bg-image"
         style="
-          background-image: url('images\background-with-opacity.png');
-          background-color: #b4fec4;
+          background-image: url('images/testimonial-bg.png');
+
           mix-blend-mode: multiply;
+          background-color: #b4fec4;
           display: flex;
           /* flex-direction: column; */
           flex-wrap: wrap;
           justify-content: center;
           align-items: center;
+          position: relative;
         "
       >
+        <div
+          style="
+            background-color: #b4fec4;
+            position: absolute;
+            inset: 0;
+            z-index: 1;
+            opacity: 0.8;
+          "
+        ></div>
         <div
           style="
             width: 1440px;
@@ -1068,6 +1080,8 @@
             padding-inline: 154.29px;
             padding-top: 96px;
             padding-bottom: 81px;
+            position: relative;
+            z-index: 2;
           "
         >
           <h3
