@@ -8,6 +8,15 @@
   margin-left: 30px;
   margin-right: 30px;
 }
+.input-display {
+  display: flex;
+  flex-grow: 1;
+}
+@media (max-width: 768px) {
+  .input-display {
+    display: none;
+  }
+}
 input::placeholder {
   color: #184363;
   font-family: "Outfit", sans-serif;

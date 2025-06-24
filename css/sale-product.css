@@ -5,7 +5,7 @@
 .product-section {
   display: flex;
   margin: 0 auto;
-  max-width: 1,439.5px;
+  max-width: 1, 439.5px;
   padding-inline: 100px;
   justify-content: center;
   margin-top: 28px;
@@ -17,14 +17,24 @@
   gap: 24px;
   justify-content: center;
 }
+.product-card-display {
+  flex-direction: row;
+  width: 607.75px;
+  height: 304.8800048828125px;
+}
 .product-card {
   display: flex;
   overflow: hidden;
-  width: 607.75px;
-  height: 304.8800048828125px;
   border-radius: 10px;
   border-width: 1px;
   border: 1px solid #eaeaea;
+}
+@media (max-width: 621px) {
+  .product-card-display {
+    flex-direction: column;
+    width: unset;
+    height: unset;
+  }
 }
 
 .image-container {

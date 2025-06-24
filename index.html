@@ -140,7 +140,7 @@
         <img
           src="images/svg/iconamoon_profile-circle-fill.svg"
           alt="profile"
-          style="margin-right: 15px"
+          style="margin-right: 15px; margin-left: 30px"
         />
         <img src="images\svg\mdi_cart.svg" alt="cart" />
 
@@ -194,7 +194,7 @@
           />All Categories</a
         >
         <div
-          class="search-input flex flex-grow-1 px-30-ser"
+          class="search-input input-display px-30-ser"
           style="background-color: hsl(137, 84%, 96%)"
         >
           <input
@@ -213,7 +213,7 @@
               padding-block: 12.96px;
               padding-inline: 16.2px;
             "
-            class="p-10 ml-0 flex"
+            class="p-10 ml-0 flex search-radius"
           >
             <img
               src="images\svg\search.svg"
@@ -255,12 +255,13 @@
         >
           <div style="text-align: start">
             <div
+              class="off-padding"
               style="
                 width: 405px;
                 height: 35px;
                 border-radius: 30px;
                 background-color: #3cda5f0d;
-                padding-inline: 20px;
+
                 padding-block: 8px;
                 text-align: start;
                 margin-bottom: 7px;
@@ -300,17 +301,15 @@
                 margin: 0px;
                 font-family: Outfit;
                 font-weight: 300;
-                font-size: 20px;
                 line-height: 100%;
                 letter-spacing: 0px;
               "
-              class="hero-align color-black"
+              class="hero-align color-black hero-p"
             >
               Save time, skip the lines. We've got you covered.
             </p>
             <button
               style="
-                margin-top: 46px;
                 width: 154px;
                 height: 45px;
                 border-radius: 10px;
@@ -322,7 +321,7 @@
                 line-height: 100%;
                 letter-spacing: 0px;
               "
-              class="color-white b-0"
+              class="color-white b-0 hero-b-mar"
             >
               ShopNow
             </button>
@@ -333,7 +332,7 @@
               height: 305.260218px; /* top: -152px; */
               left: -151px;
             "
-            class="relative"
+            class="relative image-display"
           >
             <img
               src="images/hero/background-ellipse.png"
@@ -726,7 +725,7 @@
       <!-- Sale Products -->
       <section class="product-section">
         <div class="product-cards">
-          <article class="product-card">
+          <article class="product-card product-card-display">
             <div class="image-container">
               <h5 class="sale-badge" style="">Sale</h5>
               <img src="images/elegant-perfumes.png" alt="Elegant Perfumes" />
@@ -756,7 +755,7 @@
               </button>
             </div>
           </article>
-          <article class="product-card">
+          <article class="product-card product-card-display">
             <div class="image-container">
               <h5 class="sale-badge">Sale</h5>
               <img
@@ -811,14 +810,7 @@
         >
           Medical Products
         </h3>
-        <div
-          style="
-            display: flex;
-            margin: 0 auto;
-            max-width: 1440px;
-            padding-inline: 100px;
-          "
-        >
+        <div class="med-container">
           <div
             style="border-radius: 10px; gap: 24px"
             class="flex-wrap flex justify-center"
@@ -832,7 +824,7 @@
                 style="background-color: #dcdcdc; opacity: 50%"
               ></div>
               <img
-                src="images\mask.png"
+                src="images\dressing.png"
                 alt="mask-image"
                 class="w-full h-full"
                 style="transform: rotatey(180deg)"
@@ -867,6 +859,7 @@
                     letter-spacing: 0%;
                     color: #184363;
                     vertical-align: middle;
+                    text-align: start;
                   "
                   class="bg-none med-head-font fw-500"
                 >
@@ -1010,7 +1003,7 @@
       >
         <div class="relative">
           <!-- <div class="triangle"></div> -->
-          <img src="images\svg\triangle.svg" alt="triangle" />
+          <img src="images\svg\triangle.svg" alt="triangle" class="triangle" />
           <img
             src="images\animation\hand-delivery.gif"
             alt="Animated GIF"
@@ -1096,8 +1089,6 @@
               letter-spacing: 0px;
               vertical-align: middle;
               margin: 0px;
-              width: 736.4571533203125px;
-              height: 139px;
               text-align: start;
             "
           >
@@ -1295,7 +1286,7 @@
           <h4
             class="bg-none font-resize"
             style="
-              font-family: Outfit;
+              font-family: 'Outfit', sans-serif;
               font-weight: 600;
               line-height: 100%;
               letter-spacing: 0px;
@@ -1360,7 +1351,7 @@
               src="https://lottie.host/cae9fe6c-fa4a-4abb-81a8-ecbe0cae0552/hsaqx0bhQp.lottie"
               background="transparent"
               speed="1"
-              style="width: 308px; height: 234px; background-color: unset"
+              style="background-color: unset"
               loop=""
               autoplay=""
             ></dotlottie-player>

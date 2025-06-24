@@ -1,14 +1,11 @@
-/* .triangle {
-  width: 0;
-  height: 0;
-  border-left: 275.5px solid transparent;
-  border-right: 275.5px solid transparent;
-  border-bottom: 551px solid #b1f9c6;
-} */
+.triangle {
+  width: 500px;
+  height: 500px;
+}
 .animation-s-p {
   width: 500px;
   height: 500px;
-  top: -56px;
+  top: 21px;
   left: -5px;
 }
 .delivery-heading-s {
@@ -17,18 +14,29 @@
 
 @media (max-width: 848px) {
   .triangle {
-    width: 0;
-    height: 0;
-    border-left: 100px solid transparent;
-    border-right: 100px solid transparent;
-    border-bottom: 175px solid #b1f9c6;
+    width: 433px;
+    height: 433px;
   }
   .animation-s-p {
     width: 433px;
-    top: -59px;
+    top: -26px;
     left: 50px;
   }
   .delivery-heading-s {
     font-size: 36px;
+  }
+}
+
+@media (max-width: 425px) {
+  .animation-s-p {
+    width: 325px;
+
+    height: 325px;
+    top: 8px;
+    left: 6px;
+  }
+  .triangle {
+    width: 325px;
+    height: 325px;
   }
 }
