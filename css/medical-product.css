@@ -24,7 +24,7 @@
 @media (max-width: 26.5625rem) {
   .med-content-position {
     left: 1.5rem;
-    top: 1.125rem;
+    top: 1rem;
   }
 }
 
@@ -45,120 +45,64 @@
   }
   .med-product {
     width: auto;
-    /* height: 0vm; */
+    height: auto;
   }
 }
 
 .from-font {
-  font-size: 0.75rem;
+  font-size: clamp(0.75rem, 0.75vw, 0.75rem);
   white-space: nowrap;
 }
+
 .med-head-font {
-  font-size: 28px;
+  font-size: clamp(24px, 2vw, 28px);
   white-space: nowrap;
+  line-height: 2.25rem;
 }
+
 .med-button-font {
-  font-size: 0.9375rem;
+  font-size: clamp(0.9375rem, 0.9375vw, 0.9375rem);
   white-space: nowrap;
 }
+
 .med-text-margin {
-  margin-block: 20px;
+  margin-block: clamp(20px, 2vw, 20px);
 }
+
 .med-button-w {
-  width: 6.826rem;
-  height: 2.5rem;
+  width: clamp(6.826rem, 6.826vw, 6.826rem);
+  height: clamp(2.5rem, 2.5vw, 2.5rem);
+  line-height: 1.375rem;
+}
+@media(max-width:561px){
+  .med-head-font {
+  line-height: 1.25rem;
+}
 }
 
-/* Media queries for different screen sizes */
-@media (max-width: 375px) {
-  .med-head-font {
-    font-size: calc(28px / 375 * 100vw); 
-  }
-  .med-button-font {
-    font-size: calc(0.9375rem / 375 * 100vw); /* Mobile */
-  }
+@media (max-width: 425px) {
   .from-font {
-    font-size: calc(0.75rem / 375 * 100vw); /* Mobile */
+    font-size: clamp(0.75rem, 0.75vw, 0.75rem);
+    white-space: nowrap;
   }
-  .med-text-margin {
-    /* margin-block: calc(20px / 375 * 100vw); /* Mobile */
-  } */
-  .med-button-w {
-    width: calc(0.826rem / 375 * 100vw);
-    height: calc(2.5rem / 375 * 100vw);
-  }
-}
-@media (max-width: 768px) {
-  .med-head-font {
-    font-size: calc(28px / 786 * 100vw); /* Mobile */
-  }
-  .med-button-font {
-    font-size: calc(15px / 786 * 100vw); /* Mobile */
-  }
-  .from-font {
-    font-size: calc(12px / 786 * 100vw); /* Mobile */
-  }
-  .med-text-margin {
-    margin-block: calc(20px / 786 * 100vw); /* Tablet */
-  }
-   .med-button-w {
-    width: calc(0.826rem / 786 * 100vw);
-    height: calc(2.5rem / 786 * 100vw);
-  }
-}
-@media (max-width: 1024px) {
-  .med-head-font {
-    font-size: calc(28px / 1024 * 100vw); /* Mobile */
-  }
-  .med-button-font {
-    font-size: calc(15px / 1024 * 100vw); /* Tablet */
-  }
-  .from-font {
-    font-size: calc(12px / 1024 * 100vw); /* Mobile */
-  }
-  .med-text-margin {
-    margin-block: calc(20px / 1024 * 100vw); /* Tablet */
-  }
-  .med-button-w {
-    width: calc(0.826rem / 1024 * 100vw);
-    height: calc(2.5rem / 1024 * 100vw);
-  }
-}
 
-@media (max-width: 1366px) {
   .med-head-font {
-    font-size: calc(28px / 1366 * 100vw); /* Mobile */
+    font-size: clamp(5vw, 2vw, 2vw);
+    line-height: 1.25rem;
   }
-  .med-button-font {
-    font-size: calc(15px / 1366 * 100vw); /* Laptop */
-  }
-  .from-font {
-    font-size: calc(12px / 1366 * 100vw); /* Mobile */
-  }
-  .med-text-margin {
-    margin-block: calc(20px / 1366 * 100vw); /* Tablet */
-  }
-  .med-button-w {
-    width: calc(0.826rem / 1366 * 100vw);
-    height: calc(2.5rem / 1366 * 100vw);
-  }
-}
 
-@media (max-width: 1920px) {
-  .med-head-font {
-    font-size: calc(28px / 1920 * 100vw); /* Mobile */
-  }
   .med-button-font {
-    font-size: calc(15px / 1920 * 100vw); /* Desktop */
+    font-size: clamp(0.7375rem, 0.9375vw, 0.9375rem);
+    white-space: nowrap;
   }
-  .from-font {
-    font-size: calc(12px / 1920 * 100vw); /* Mobile */
-  }
+
   .med-text-margin {
-    margin-block: calc(20px / 1920 * 100vw); /* Tablet */
+    margin-block: clamp(9px, 2vw, 20px);
   }
+
   .med-button-w {
-    width: calc(0.826rem / 1920 * 100vw);
-    height: calc(2.5rem / 1920 * 100vw);
+    width:fit-content;
+    height:fit-content;
+    line-height: 0%;
   }
 }

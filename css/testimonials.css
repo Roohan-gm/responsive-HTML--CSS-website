@@ -17,11 +17,30 @@
   width: 58px;
 }
 .t-card-w {
-  width: 360px;
+  box-sizing: border-box;
+  padding: 40px;
+  max-width: 360px;
+  width: 100%;
+}
+.in-pad {
+  padding-inline: 154.29px;
 }
 @media (max-width: 425px) {
-  .t-card-w {
+  /* .t-card-w {
     width: 300px;
+  } */
+  .t-card-w {
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+    flex-basis: 100%;
+  }
+  .comment-s {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  .in-pad {
+    padding-inline: 20px;
   }
 }
 @media (max-width: 848px) {
