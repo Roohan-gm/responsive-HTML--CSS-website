@@ -3,22 +3,31 @@
   max-width: 100%;
   padding: 4.0625rem;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* text-align: center;  */
 }
 
 .hero-container {
   display: flex;
   flex-wrap: wrap;
   gap: 13.4375rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-content {
   flex: 1;
   min-width: 300px;
+  /* text-align: center; */
 }
 
 .hero-image-container {
   flex: 1;
   min-width: 250px;
+  text-align: center; /* Center text inside the content */
 }
 
 .hero-image {
@@ -30,13 +39,20 @@
 
 /* Promo Banner */
 .promo-banner {
-  background-color: #3CDA5F0D;
-  border-radius: 2rem;
-  padding: 0.625rem 1.25rem;
+  background-color: #3cda5f0d;
   margin-bottom: 0.35rem;
-  width: 100%;
-  max-width: 405px;
   box-sizing: border-box;
+
+  max-width: 405px;
+  width: 100%;
+  height: 35px;
+  border-radius: 30px;
+  padding: 0.5rem 1rem;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  /* margin: 0 auto;  */
 }
 
 .promo-text {
@@ -47,6 +63,8 @@
   line-height: 1.2;
   letter-spacing: 0;
   color: #0a2640;
+  margin: 0px;
+  /* text-align: center; */
 }
 
 /* Hero Title */
@@ -60,11 +78,14 @@
   margin-block: 0px;
   color: #0a2640;
   background-color: unset;
+  /* text-align: center; */
 }
 
 /* Animated Text */
 .animated-text {
   overflow: hidden;
+  width: 531px;
+  /* text-align: center; */
 }
 
 .animated-text h1 {
@@ -73,7 +94,7 @@
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0;
-  text-align: start;
+  /* text-align: center;  */
   margin-block: 0px;
   background-color: unset;
 }
@@ -137,6 +158,7 @@
   color: #000;
   font-size: 1.25rem;
   max-width: fit-content;
+  /* text-align: center;  */
 }
 
 /* Shop Now Button */
@@ -153,8 +175,191 @@
   letter-spacing: 0;
   color: white;
   max-width: fit-content;
+  /* margin: 0 auto;  */
 }
+@media (max-width: 991px) {
+  /* Hero Section */
+  .hero-section {
+    max-width: 100%;
+    padding: 4.0625rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 
+  .hero-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 13.4375rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-content {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+  }
+
+  .hero-image-container {
+    flex: 1;
+    min-width: 250px;
+    text-align: center; /* Center text inside the content */
+  }
+
+  .hero-image {
+    width: 100%;
+    height: auto;
+    max-width: 468px;
+    object-fit: contain;
+  }
+
+  /* Promo Banner */
+  .promo-banner {
+    background-color: #3cda5f0d;
+    margin-bottom: 0.35rem;
+    box-sizing: border-box;
+
+    max-width: 405px;
+    width: 100%;
+    height: 35px;
+    border-radius: 30px;
+    padding: 0.5rem 1rem;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    margin: 0 auto;
+  }
+
+  .promo-text {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    background-color: unset;
+    font-size: 0.9375rem;
+    line-height: 1.2;
+    letter-spacing: 0;
+    color: #0a2640;
+    margin: 0px;
+    text-align: center;
+  }
+
+  /* Hero Title */
+  .hero-title {
+    font-family: "Outfit", sans-serif;
+    font-size: 4.5rem;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    margin-block: 0px;
+    color: #0a2640;
+    background-color: unset;
+    text-align: center;
+  }
+
+  /* Animated Text */
+  .animated-text {
+    overflow: hidden;
+    width: 531px;
+    text-align: center;
+  }
+
+  .animated-text h1 {
+    font-family: "Outfit", sans-serif;
+    font-size: 4.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0;
+    text-align: center;
+    margin-block: 0px;
+    background-color: unset;
+  }
+
+  /* Animation */
+  @keyframes change-color {
+    0% {
+      color: #fd273b;
+      transform: translateY(0);
+      opacity: 1;
+    }
+
+    25% {
+      color: #fd273b;
+      transform: translateY(-30px);
+      opacity: 0;
+    }
+    25.001% {
+      color: #9747ff;
+      transform: translateY(0);
+      opacity: 1;
+    }
+    50% {
+      color: #9747ff;
+      transform: translateY(-30px);
+      opacity: 0;
+    }
+    50.001% {
+      color: #2ad427;
+      transform: translateY(0);
+      opacity: 1;
+    }
+    75% {
+      color: #2ad427;
+      transform: translateY(-30px);
+      opacity: 0;
+    }
+    75.001% {
+      color: #fd273b;
+      transform: translateY(0);
+      opacity: 1;
+    }
+    100% {
+      color: #fd273b;
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  .hero-animation {
+    animation: change-color 4s infinite;
+  }
+
+  /* Hero Description */
+  .hero-description {
+    margin-bottom: 1.5rem;
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 0;
+    color: #000;
+    font-size: 1.25rem;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+  }
+
+  /* Shop Now Button */
+  .shop-now-btn {
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 12px 24px;
+    background-color: #3cda5f;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    letter-spacing: 0;
+    color: white;
+    max-width: fit-content;
+    margin: 0 auto;
+  }
+}
 /* Media Queries */
 @media (max-width: 768px) {
   .hero-section {
@@ -170,7 +375,7 @@
   .hero-content,
   .hero-image-container {
     width: 100%;
-    max-width: 500px;
+    max-width: 300px;
   }
 
   .hero-image {
