@@ -1,87 +1,3 @@
-/* .from-font {
-  font-size: 12px;
-}
-.med-head-font {
-  font-size: 28px;
-}
-.med-button-font {
-  font-size: 15px;
-}
-.med-container {
-  display: flex;
-  margin: 0 auto;
-  max-width: 1440px;
-  padding-inline: 100px;
-}
-.med-content-position {
-  left: 56px;
-  top: 39px;
-}
-.med-product {
-  width: 608px;
-  height: 270px;
-}
-
-.med-pro-con {
-  font-family: "Outfit", sans-serif;
-  line-height: 36px;
-  letter-spacing: 0px;
-  color: #184363;
-  vertical-align: middle;
-}
-.med-text-margin {
-  margin-block: 30px;
-}
-@media (max-width: 425px) {
-  .med-text-margin {
-    margin-block: 10px;
-  }
-  .med-content-position {
-    left: 56px;
-    top: 18px;
-  }
-}
-@media (min-width: 848px) {
-  .from-font {
-    font-size: 10px;
-  }
-  .med-head-font {
-    font-size: 24px;
-  }
-  .med-button-font {
-    font-size: 12px;
-  }
-}
-@media (max-width: 848px) {
-  .med-container {
-    display: flex;
-    margin: 0 auto;
-    max-width: 1440px;
-    padding-inline: 12px;
-  }
-  .med-pro-con {
-    font-family: "Outfit", sans-serif;
-    line-height: 36px;
-    letter-spacing: 0px;
-    color: #184363;
-    vertical-align: middle;
-    margin: 10px;
-  }
-  .med-product {
-    width: fit-content;
-    height: fit-content;
-  }
-} */
-
-.from-font {
-  font-size: 0.75rem;
-}
-.med-head-font {
-  font-size: 1.75rem;
-}
-.med-button-font {
-  font-size: 0.9375rem;
-}
 .med-container {
   display: flex;
   margin: 0 auto;
@@ -104,34 +20,14 @@
   color: #184363;
   vertical-align: middle;
 }
-.med-text-margin {
-  margin-block: 1.875rem;
-}
-@media (max-width: 48rem) {
-  .med-text-margin {
-    margin-block: 0.875rem;
-  }
-}
+
 @media (max-width: 26.5625rem) {
-  .med-text-margin {
-    margin-block: 0.625rem;
-  }
   .med-content-position {
     left: 1.5rem;
     top: 1.125rem;
   }
 }
-@media (min-width: 53.0625rem) {
-  .from-font {
-    font-size: 0.625rem;
-  }
-  .med-head-font {
-    font-size: 1.5rem;
-  }
-  .med-button-font {
-    font-size: 0.75rem;
-  }
-}
+
 @media (max-width: 53.0625rem) {
   .med-container {
     display: flex;
@@ -149,6 +45,120 @@
   }
   .med-product {
     width: auto;
-    height: auto;
+    /* height: 0vm; */
+  }
+}
+
+.from-font {
+  font-size: 0.75rem;
+  white-space: nowrap;
+}
+.med-head-font {
+  font-size: 28px;
+  white-space: nowrap;
+}
+.med-button-font {
+  font-size: 0.9375rem;
+  white-space: nowrap;
+}
+.med-text-margin {
+  margin-block: 20px;
+}
+.med-button-w {
+  width: 6.826rem;
+  height: 2.5rem;
+}
+
+/* Media queries for different screen sizes */
+@media (max-width: 375px) {
+  .med-head-font {
+    font-size: calc(28px / 375 * 100vw); 
+  }
+  .med-button-font {
+    font-size: calc(0.9375rem / 375 * 100vw); /* Mobile */
+  }
+  .from-font {
+    font-size: calc(0.75rem / 375 * 100vw); /* Mobile */
+  }
+  .med-text-margin {
+    /* margin-block: calc(20px / 375 * 100vw); /* Mobile */
+  } */
+  .med-button-w {
+    width: calc(0.826rem / 375 * 100vw);
+    height: calc(2.5rem / 375 * 100vw);
+  }
+}
+@media (max-width: 768px) {
+  .med-head-font {
+    font-size: calc(28px / 786 * 100vw); /* Mobile */
+  }
+  .med-button-font {
+    font-size: calc(15px / 786 * 100vw); /* Mobile */
+  }
+  .from-font {
+    font-size: calc(12px / 786 * 100vw); /* Mobile */
+  }
+  .med-text-margin {
+    margin-block: calc(20px / 786 * 100vw); /* Tablet */
+  }
+   .med-button-w {
+    width: calc(0.826rem / 786 * 100vw);
+    height: calc(2.5rem / 786 * 100vw);
+  }
+}
+@media (max-width: 1024px) {
+  .med-head-font {
+    font-size: calc(28px / 1024 * 100vw); /* Mobile */
+  }
+  .med-button-font {
+    font-size: calc(15px / 1024 * 100vw); /* Tablet */
+  }
+  .from-font {
+    font-size: calc(12px / 1024 * 100vw); /* Mobile */
+  }
+  .med-text-margin {
+    margin-block: calc(20px / 1024 * 100vw); /* Tablet */
+  }
+  .med-button-w {
+    width: calc(0.826rem / 1024 * 100vw);
+    height: calc(2.5rem / 1024 * 100vw);
+  }
+}
+
+@media (max-width: 1366px) {
+  .med-head-font {
+    font-size: calc(28px / 1366 * 100vw); /* Mobile */
+  }
+  .med-button-font {
+    font-size: calc(15px / 1366 * 100vw); /* Laptop */
+  }
+  .from-font {
+    font-size: calc(12px / 1366 * 100vw); /* Mobile */
+  }
+  .med-text-margin {
+    margin-block: calc(20px / 1366 * 100vw); /* Tablet */
+  }
+  .med-button-w {
+    width: calc(0.826rem / 1366 * 100vw);
+    height: calc(2.5rem / 1366 * 100vw);
+  }
+}
+
+@media (max-width: 1920px) {
+  .med-head-font {
+    font-size: calc(28px / 1920 * 100vw); /* Mobile */
+  }
+  .med-button-font {
+    font-size: calc(15px / 1920 * 100vw); /* Desktop */
+  }
+  .from-font {
+    font-size: calc(12px / 1920 * 100vw); /* Mobile */
+  }
+  .med-text-margin {
+    margin-block: calc(20px / 1920 * 100vw); /* Tablet */
+  }
+  .med-button-w {
+    width: calc(0.826rem / 1920 * 100vw);
+    height: calc(2.5rem / 1920 * 100vw);
   }
 }

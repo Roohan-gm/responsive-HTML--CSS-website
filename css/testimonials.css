@@ -16,8 +16,14 @@
   height: 58px;
   width: 58px;
 }
-
-
+.t-card-w {
+  width: 360px;
+}
+@media (max-width: 425px) {
+  .t-card-w {
+    width: 300px;
+  }
+}
 @media (max-width: 848px) {
   .testimonial-h-s {
     font-size: 24px;
