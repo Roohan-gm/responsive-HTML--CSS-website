@@ -193,7 +193,7 @@
   .hero-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 13.4375rem;
+    gap: 19.4375rem;
     justify-content: center;
     align-items: center;
   }
