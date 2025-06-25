@@ -30,7 +30,7 @@
 
 /* Promo Banner */
 .promo-banner {
-  background-color: #3cda5f0d;
+  background-color: #3CDA5F0D;
   border-radius: 2rem;
   padding: 0.625rem 1.25rem;
   margin-bottom: 0.35rem;
@@ -42,6 +42,7 @@
 .promo-text {
   font-family: "Outfit", sans-serif;
   font-weight: 400;
+  background-color: unset;
   font-size: 0.9375rem;
   line-height: 1.2;
   letter-spacing: 0;
@@ -57,6 +58,8 @@
   font-weight: 500;
   margin-bottom: 1rem;
   margin-block: 0px;
+  color: #0a2640;
+  background-color: unset;
 }
 
 /* Animated Text */
@@ -72,6 +75,7 @@
   letter-spacing: 0;
   text-align: start;
   margin-block: 0px;
+  background-color: unset;
 }
 
 /* Animation */
@@ -226,7 +230,6 @@
 
   .promo-banner {
     max-width: 100%;
-    border-radius: 1.5rem;
     padding: 0.5rem 1rem;
   }
 
