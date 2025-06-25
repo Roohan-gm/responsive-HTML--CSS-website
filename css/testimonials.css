@@ -25,6 +25,16 @@
 .in-pad {
   padding-inline: 154.29px;
 }
+@media (max-width: 768px) {
+  .in-pad {
+    padding-inline: 96px;
+  }
+}
+@media (max-width: 482px) {
+  .in-pad {
+    padding-inline: 48px;
+  }
+}
 @media (max-width: 425px) {
   /* .t-card-w {
     width: 300px;

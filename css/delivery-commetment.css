@@ -25,7 +25,7 @@
   font-size: 72px;
   /* line-height: 100%; */
   color: #2a3136;
-  font-family: 'Outfit', sans-serif;
+  font-family: "Outfit", sans-serif;
   /* text-align: center; */
   margin: 0;
   font-weight: 500;
@@ -33,6 +33,11 @@
   /* white-space: nowrap; */
 }
 
+@media (max-width: 1114px) {
+  .delivery-heading-s {
+    text-align: center;
+  }
+}
 @media (max-width: 425px) {
   .section-full-center {
     gap: 32px;
