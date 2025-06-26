@@ -15,12 +15,24 @@
     background-position: 0%;
   }
 }
-
+.hide-dis {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hide-ham {
+    display: none;
+  }
+@media (max-width: 993px) {
+  .hide-dis {
+    display: none;
+  }
+  .hide-ham {
+    display: inline;
+  }
+}
 .hidden {
   display: none;
-}
-.show-ham {
-  display: inline;
 }
 .header-p {
   padding-right: 90px;
@@ -47,9 +59,6 @@
 @media (min-width: 848px) {
   .sm\:show {
     display: inline;
-  }
-  .sm\:hide-ham {
-    display: none;
   }
   .header-p {
     padding-right: 80px;
